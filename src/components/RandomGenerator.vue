@@ -12,6 +12,7 @@
 
 <script>
 import axios from 'axios'
+import apikey from '../apikey.js'
 export default {
   name: 'RandomGenerator',
   data () {
@@ -22,7 +23,7 @@ export default {
       date: '',
       overview: '',
       imdbUrl: '',
-      apiKey: 'a36c05d13fe5bdb40ecdfa5e559a6fff'
+      apiKey: apikey
     }
   },
   methods: {
